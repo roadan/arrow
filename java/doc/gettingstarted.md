@@ -32,7 +32,6 @@ IntVector.Mutator idMutetor = idVector.getMutator();
 
 for (int i = 0; i < 1000; i++) {
     idMutetor.setSafe(i, i);
-    nameMutetor.setSafe(i, String.format("name %d", i).getBytes());
 }
 ```
 
@@ -45,7 +44,6 @@ IntVector.Mutator idMutetor = idVector.getMutator();
 
 for (int i = 0; i < 1000; i++) {
     idMutetor.set(i, i);
-    nameMutetor.setSafe(i, String.format("name %d", i).getBytes());
 }
 ```
 
